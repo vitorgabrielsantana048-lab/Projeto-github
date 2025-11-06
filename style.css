@@ -1,13 +1,19 @@
-/* ======= ESTILO GERAL ======= */
+ /* ======= ESTILO GERAL ======= */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0e0e0e, #1f1f1f);
+    background: 
+        linear-gradient(135deg, rgba(14,14,14,0.5), rgba(31,31,31,0.5)),
+        url('https://cdn.wallpapersafari.com/64/72/R2TJ9r.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #f5f5f5;
     margin: 0;
     padding: 20px;
     text-align: center;
     overflow-x: hidden;
 }
+
 
 /* ======= CABEÇALHO ======= */
 header {
